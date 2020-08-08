@@ -1,4 +1,4 @@
-name: Latest blog post workflow
+name: Latest johncms news workflow
 on:
   schedule:
     # Runs every hour
@@ -7,10 +7,12 @@ on:
 
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: Update this repo's README with latest news
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
+          comment_tag_name: "JOHNCMS-NEWS"
           feed_list: "https://johncms.com/rss/"
+          committer_username: "gingbot"
