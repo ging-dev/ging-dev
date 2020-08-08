@@ -1,16 +1,14 @@
-### Hi there 👋
+### Hi there 👋, I'm Gingdev
 
-<!--
-**ging-dev/ging-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## I'm a Developer!
 
-Here are some ideas to get you started:
+- 🐧 I'm Linuxer
+- 🌱 I’m currently learning everything
+- 🐘 I love PHP, C++
+- ⚡ Fun fact: I'm Wibu
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📕 **Latest JOHNCMS Posts**
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+![Github stats](https://github-readme-stats.vercel.app/api?username=ging-dev&hide=prs,issues)
