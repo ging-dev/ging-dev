@@ -25,4 +25,5 @@
 - [[C/C++] Đếm số lần xuất hiện mỗi kí tự trong C](http://creepyzone.dx.am/2019/12/cc-dem-so-lan-xuat-hien-moi-ki-tu-trong-c)
 <!-- CREEPYZONE:END -->
 
+![Github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ging-dev&layout=compact)
 ![Github stats](https://github-readme-stats.vercel.app/api?username=ging-dev&hide=prs,issues)
