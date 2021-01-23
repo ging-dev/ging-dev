@@ -29,5 +29,3 @@
 - [News: Конкурс для разработчиков модулей!](https://johncms.com/news/)
 - [News: JohnCMS 9.1.0](https://johncms.com/news/)
 <!-- JOHNCMS-NEWS:END -->
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=ging-dev&show_icons=true&locale=en" alt="ging-dev" /></p>
