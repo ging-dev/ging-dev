@@ -1,0 +1,33 @@
+name: XFCE4
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 9999
+
+    steps:
+    - name: Get username
+      run: echo $(whoami)
+    - name: Setup password
+      run: |
+        echo $(whoami):gingdev123 | sudo chpasswd
+    - name: Install & setup xrdp
+      run: |
+        sudo apt-get install xrdp
+        sudo adduser xrdp ssl-cert
+        echo xfce4-session > ~/.xsession
+    - name: Install xfce4
+      run: |
+        sudo apt install xfce4 xfce4-terminal
+        sudo service xrdp restart
+    - name: Download & unzip ngrok 
+      run: |
+        wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+        unzip ngrok-stable-linux-amd64.zip
+        ./ngrok authtoken 7wxpKJiTdqpZBaL6YBQNm_35egEEeDabpcw8eeDHDGh
+    - name: Run ngrok
+      run:
+        ./ngrok tcp 3389
